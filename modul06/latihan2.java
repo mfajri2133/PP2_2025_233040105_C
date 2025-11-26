@@ -47,7 +47,7 @@ public class latihan2 {
 
                     output.setText(String.valueOf(hasil));
 
-                } catch (NumberFormatException ex) {
+                } catch (NumberFormatException err) {
                     output.setText("ERROR!");
                 }
             }
